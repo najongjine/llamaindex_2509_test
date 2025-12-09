@@ -95,7 +95,7 @@ def main():
 
     print("\n" + "="*30)
     # 질문을 데이터에 있는 내용으로 바꿔봤습니다.
-    user_question = "회사에서 뭐 키워?"
+    user_question = "회사에서 뭐 키우냐?"
     print(f"❓ 질문: {user_question}")
     
     """
