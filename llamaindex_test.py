@@ -98,6 +98,11 @@ def main():
     user_question = "회사에서 뭐 키워?"
     print(f"❓ 질문: {user_question}")
     
+    """
+    사람이 질문한거 숫자화,
+    벡터db 에서 관련된 문서 k 개 가져오고,
+    사람질문+백터문서 -> gemini
+    """
     response = query_engine.query(user_question)
     
     print(f"💡 답변:\n{response}")
